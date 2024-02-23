@@ -39,7 +39,7 @@
     <!-- This is where it ends -->
 
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  Please ignore any ads you come across and scroll down or click it (please disable ad blockers for this site), it's how we profit from this.
+  Please ignore any ads you come across and scroll down or click it (please disable ad blockers for this site), it's how we profit from this - or click this button to get rid of the ads if you don't feel like helping <button class="btn btn-danger" id="adsbtn">Remove ads</button>
   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
     
@@ -71,4 +71,12 @@ helping us, link at: <a href="https://bothaven.netlify.app/#">https://bothaven.n
  <!-- Adsterra social bar -->
   <script type='text/javascript' src='//pl22579949.profitablegatecpm.com/dd/83/a8/dd83a8c03ba5c98e9b17dd208319dff9.js'></script>
   </body>
+
+  <script>
+
+    document.getElementById("adsbtn").onclick = 
+function (){
+  alert("Just kidding! , you can't remove the ads.")
+}
+  </script>
 </html>
